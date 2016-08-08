@@ -1,0 +1,9 @@
+version: '2'
+services:
+  docr-cnc:
+    build: '.'
+    image: 'kbai/docr-cnc'
+    container_name: 'docr-cnc-app'
+  redis:
+    image: 'redis'
+    container_name: 'docr-redis-app'

@@ -1,0 +1,30 @@
+{
+  "name": "docr-cnc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee src/lib/server.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kba/docr-cnc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kba/docr-cnc/issues"
+  },
+  "homepage": "https://github.com/kba/docr-cnc#readme",
+  "dependencies": {
+    "easylog": "~0.0.12",
+    "express": "^4.14.0",
+    "kue": "^0.11.1",
+    "docr-common": "~0.0.1"
+  },
+  "devDependencies": {
+    "supertest": "^2.0.0",
+    "tape": "^4.6.0"
+  }
+}
